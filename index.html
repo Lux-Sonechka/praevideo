@@ -14,6 +14,20 @@
     <title>PRAEVIDEO</title>
 </head>
 <body onload="OnStart()">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="close_popup()">&times;</span>
+      <p>Keep calm and watch thine back.</p>
+    </div>
+  
+  </div>
+    <audio autoplay loop id="song-unfamiliar">
+        <source src="Songs/unfamiliar-place.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
     <div id="navbar">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Earth_symbol_%28bold%29.svg/800px-Earth_symbol_%28bold%29.svg.png" id="img-slogan" onclick="RedirectWikiSlogan()">
         <h3 id="slogan" onclick="Red_Slogan()">PRAEVISIO</h1>
