@@ -11,22 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Fonts/Coptic/stylesheet.css">
     <link rel="stylesheet" href="./Fonts/Runes/stylesheet.css">
-    <title>PRAEVIDEO</title>
+    <title>PRAEVIDEO - About</title>
 </head>
 <body onload="OnStart()">
     <!-- The Modal -->
-    <div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close" onclick="close_popup()">&times;</span>
-      <h1>Welcome!</h1>
-      <p>Have a nice reading! In case of any grammatical error, please contact me.</p>
-      <h4>- D</h4>
-    </div>
-  
-  </div>
-
+    
     <div id="Modal-chapter" class="modal">
         <div id="modal-content-chapters"><span class="close" onclick="close_chapter()">&times;</span>
             <h1>Chapters</h1>
@@ -34,7 +23,6 @@
             <p>Enjoy!</p>
         </div>
     </div>
-    </body>
     <audio autoplay loop id="song-unfamiliar">
         <source src="Songs/unfamiliar-place.ogg" type="audio/ogg">
         Your browser does not support the audio element.
@@ -44,7 +32,7 @@
         <h3 id="slogan" onclick="Red_Slogan()">PRAEVISIO</h1>
         <a class="crumb" onclick="Red_Home()">Home</a>
         <a class="crumb" onclick="open_chapter()">Chapters</a>
-        <a class="crumb" onclick="Red_About()">About</a>
+        <a class="crumb">About</a>
     </div>
     <div id="label-phrase"></div>
     <div id="content-home">
@@ -57,19 +45,20 @@
             </div>
         </div>-->
         <div class="news">
-            <h3> Setember 22th, 2024</h3>
-            Great news, pals!
+            <h1>About the website</h1>
+            This is a website designed exclusively for my web-book about the story of Lux sonechka, a teenager who suddenly received powers from a celestial god.
+            <h2>Credits</h2>
             <ul>
-                <li>Chapter 1 released.</li>
-                <li>Website's style remade.</li>
-                <li>Bugs fixed.</li>
+                <li>Author: Delta</li>
+                <li>Programmer: Delta</li>
+                <li>Design by: Delta</li>
+                <li>Background music: Delta</li>
             </ul>
-
+            <h2>Social media & Contact</h2>
+            <img id="yt" onclick="Red_About_YT()" src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" style="height: 14vw; width: 14vw;">
+            <h3>GMAIL: lux.sonechka@gmail.com</h3>
         </div>
-        <div class="news">
-            <h3> Setember 20th, 2024</h3>
-            First chapter being written!.
-        </div>
+        
     </div>
 </body>
 </html>

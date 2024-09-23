@@ -46,6 +46,12 @@ function Red_Home() {
 function Red_Slogan() {
     window.location.replace('https://www.bing.com/search?q=what+does+"praevisio"+mean%3F&pc=0OVP&ptag=C999A354F7A8C3A&form=PCF101&conlogo=CT3210127')
 }
+function Red_About() {
+    window.location.replace("about.html")
+}
+function Red_About_YT() {
+    window.location.replace('https://www.youtube.com/@Delta_pixels')
+}
 
 
 // When the user clicks on the button, open the modal
