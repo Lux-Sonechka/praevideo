@@ -44,6 +44,13 @@ body {
   cursor: pointer;
   background-color: aliceblue;
 }
+.crumb2-new {
+  margin: auto;
+  padding: 1vw;
+  cursor: pointer;
+  color: #c50d0d;
+  background-color: rgb(255, 253, 152);
+}
 .crumb:hover, .crumb2:hover {
     background-color: rgb(133, 120, 199);;
 }
@@ -161,4 +168,11 @@ body {
   }
   #yt:hover {
     cursor: pointer;
+  }
+  @keyframes new-anim {
+    0% {color: #c50d69; background-color: #6206cc;}
+    25% {color: #c50d0d; background-color: #2406cc;}
+    50% {background-color: rgb(113, 26, 153); color: black;}
+    75% {color: #2406cc; background-color: #c50d0d;}
+    100% {color: #6206cc; background-color: #c50d69;}
   }

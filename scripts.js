@@ -44,7 +44,7 @@ function Red_Home() {
     window.location.replace("index.html")
 }
 function Red_Slogan() {
-    window.location.replace('https://www.bing.com/search?q=what+does+"praevisio"+mean%3F&pc=0OVP&ptag=C999A354F7A8C3A&form=PCF101&conlogo=CT3210127')
+    window.location.replace('https://www.latin-is-simple.com/en/vocabulary/search/?q=praevisio')
 }
 function Red_About() {
     window.location.replace("about.html")
