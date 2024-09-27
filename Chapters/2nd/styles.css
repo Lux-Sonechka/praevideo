@@ -1,0 +1,159 @@
+.shadows-into-light-regular {
+    font-family: "Handwritting", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vw;
+    background-image: linear-gradient(0deg, #e1e1f2 25%, #f5f3e7 25%, #f5f3e7 50%, #e1e1f2 50%, #e1e1f2 75%, #f5f3e7 75%, #f5f3e7 100%);
+    background-size: 200.00px 200.00px;
+}
+.text {
+    background-image: linear-gradient(0deg, #f0e1f2 25%, #e7f2f5 25%, #e7f2f5 50%, #f0e1f2 50%, #f0e1f2 75%, #e7f2f5 75%, #e7f2f5 100%);
+    background-size: 200.00px 200.00px;
+    padding: 5%;
+    font-family: 'Handwritting', cursive;
+    border: 0.25vw solid black;
+    border-radius: 1vw;
+}
+.messages {
+    margin-top: 2vw;
+    background-image: linear-gradient(0deg, #ffffff 25%, #e7f2f5 25%, #e7f2f5 50%, #ffffff 50%, #ffffff 75%, #e7f2f5 75%, #e7f2f5 100%);
+    background-size: 200.00px 200.00px;
+    border: 1vw solid #8aa7a7;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+}
+.msg-right {
+    background-color: #aee0d8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 1vw;
+    margin-left: 3vw;
+    border-radius: 0.5vw;
+    max-width: 20vw;
+    min-width: 10vw;
+    margin-top: 2.5vw;
+    padding: 1vw;
+    
+}
+.msg-left {
+    background-color: #aee0d8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 1vw;
+    margin-left: 43vw;
+    border-radius: 0.5vw;
+    max-width: 20vw;
+    min-width: 10vw;
+    margin-top: 2.5vw;
+    padding: 1vw;
+}
+#sticker-01 {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    translate: 45vw -20vw;
+    rotate: 25deg;
+}
+#sticker-01-outline {
+    display: flex;
+    width: 21vw;
+    height: 21vw;
+    filter: contrast(1%);
+    position: absolute;
+    translate: 45vw -20vw;
+    rotate: 25deg;
+}
+#cellphone-border {
+    width: 37vw;
+    height: 50vw;
+    border: 2vw solid black;
+    border-radius: 4vw;
+    margin-bottom: 5vw;
+}
+#cellphone-top {
+    font-family: 'Handwritting', cursive;
+    color: aliceblue;
+    background-color: black;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    padding-left: 35%;
+}
+#cellphone-bottom {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: black;
+    padding-bottom: 1vw;
+    padding-top: 1.8vw;
+    padding-left: 35%;
+}
+#cellphone-content {
+    background-color: #283235;
+    height: 40vw;
+}
+#audio-container {
+    background-color: #B6483D;
+    height: 30vw;
+    border-radius: 1vw;
+    width: 25vw;
+    translate: 6vw 7vw;
+}
+#hell-img {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    margin-left: 7vw;
+    margin-top: 1vw;
+}
+#cellphone-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cellphone-notification-bar {
+    background-color: #1c2325;
+    color: white;
+    font-size: large;
+}
+#progress-bar {
+    -webkit-appearance: none;
+    width: 80%;
+    margin-left: 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    height: 0.5vw;
+}
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #1c2325;
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+#song {
+    width: 80%;
+    margin-left: 2vw;
+}
+#cellphone-button {
+    background-color: #ffffff;
+    color: white;
+    border-radius: 1vw;
+    margin-left: 2vw;
+    height: 5wv;
+    width: 7vw;
+    cursor: pointer;
+}
+#browser-icon {
+    width: 9vw;
+    height: 7vw;
+    display: none;
+    cursor: pointer;
+}
