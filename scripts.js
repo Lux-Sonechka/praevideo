@@ -79,3 +79,6 @@ function open_chapter() {
 function chapter_1() {
     window.location.href = "Chapters/1st/chapter1.html"
 }
+function chapter_2() {
+    window.location.href = "Chapters/2nd/chapter2.html"
+}
