@@ -12,6 +12,7 @@ function OnStart() {
     // Get the <span> element that closes the modal
     span = document.getElementsByClassName("close");
     modal.style.display = "block";
+
       
     var choose = Math.floor(Math.random() * 5)
 
@@ -41,17 +42,16 @@ function RedirectWikiSlogan() {
     window.open("https://en.wikipedia.org/wiki/Sun_cross");
 }
 function Red_Home() {
-    window.location.replace("index.html")
+    window.alert("Aren't you at home already?")
 }
 function Red_Slogan() {
-    window.location.replace('https://www.latin-is-simple.com/en/vocabulary/search/?q=praevisio')
+    window.open('https://www.latin-is-simple.com/en/vocabulary/search/?q=praevisio')
 }
 function Red_About() {
-    window.location.replace("about.html")
+    //window.location.replace("about.html")
+    window.alert('New about page coming soon! UwU')
 }
-function Red_About_YT() {
-    window.location.replace('https://www.youtube.com/@Delta_pixels')
-}
+
 
 
 // When the user clicks on the button, open the modal
@@ -65,6 +65,9 @@ function close_popup() {
 function close_chapter() {
     document.getElementById('Modal-chapter').style.display = "none";
   }
+  function close_about() {
+    document.getElementById('Modal-about').style.display = "none";
+  }
 
 
 // When the user clicks anywhere outside of the modal, close it
@@ -77,8 +80,10 @@ function open_chapter() {
     document.getElementById('Modal-chapter').style.display = "block";
 }
 function chapter_1() {
-    window.location.href = "Chapters/1st/chapter1.html"
+    const new_window = window.open()
+    new_window.location.href = "Chapters/1st/chapter1.html"
 }
 function chapter_2() {
-    window.location.href = "Chapters/2nd/chapter2.html"
+    const new_window = window.open()
+    new_window.location.href = "Chapters/2nd/chapter2.html"
 }

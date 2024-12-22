@@ -19,35 +19,54 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close" onclick="close_popup()">&times;</span>
-      <h1>Welcome!</h1>
-      <p>Have a nice reading! In case of any grammatical error, please contact me.</p>
-      <h4>- D</h4>
+        <div class="tape" style="width: 30%;height: 10%;transform: rotate(-30deg) translate(-7vw, -8vw);"></div>
+        <div class="tape" style="width: 30%;height: 10%;transform: rotate(30deg) translate(27vw, -17vw);"></div>
+        <span class="close" onclick="close_popup()">&times;</span>
+      <div id="text-modal">
+        <h1>Welcome!</h1>
+      <p>Have a nice reading! In case of any bug or grammatical error, please contact me.<br>Make yourself at home~</p>
+      <h4>- Delta</h4>
+      </div>
     </div>
-  
-  </div>
+    </div>
 
     <div id="Modal-chapter" class="modal">
-        <div id="modal-content-chapters"><span class="close" onclick="close_chapter()">&times;</span>
+        <div id="modal-content-chapters"><span class="close" onclick="close_chapter()" style="transform: translate(75vw);">&times;</span>
             <h1>Chapters</h1>
             <a class="crumb2" onclick="chapter_1()">Chapter 1 - Friendship & Coffee</a>
-            <a class="crumb2-new" onclick="chapter_2()">Chapter 2 - An unexpected chat</a>
+            <a class="crumb2" onclick="chapter_2()">Chapter 2 - An unexpected chat</a>
+            <a class="crumb2-new">Chapter 3 - Coming soon</a>
             <p>Enjoy!</p>
         </div>
     </div>
-    </body>
-    <audio autoplay loop id="song-unfamiliar">
-        <source src="Songs/unfamiliar-place.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
-      </audio>
-    <div id="navbar">
+    
+
+    <!--<div id="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Earth_symbol_%28bold%29.svg/800px-Earth_symbol_%28bold%29.svg.png" id="img-slogan" onclick="RedirectWikiSlogan()">
+        <h3 id="slogan" onclick="Red_Slogan()">PRAEVISIO</h1>
+        <a class="crumb" onclick="Red_Home()">Home</a>
+        <a class="crumb" onclick="open_chapter()">Chapters</a>
+        <a class="crumb" onclick="Red_About()">About</a>
+    </div>-->
+
+    <div class="tape" style="margin: 1vw; position: relative; width: 97vw; display: flex;color: rgb(245, 239, 255);align-items: center;justify-content: center;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Earth_symbol_%28bold%29.svg/800px-Earth_symbol_%28bold%29.svg.png" id="img-slogan" onclick="RedirectWikiSlogan()">
         <h3 id="slogan" onclick="Red_Slogan()">PRAEVISIO</h1>
         <a class="crumb" onclick="Red_Home()">Home</a>
         <a class="crumb" onclick="open_chapter()">Chapters</a>
         <a class="crumb" onclick="Red_About()">About</a>
     </div>
-    <div id="label-phrase"></div>
+
+    <div id="media-player">
+        <h2>Will Osborne & His Orchestra - It's De-Lovely (Instrumental)</h2>
+        <img src="./img/gramophone-gif.gif" id="gramophone-gif">
+        <audio autoplay controls loop id="song-unfamiliar">
+            <source src="Songs/its-de-lovely.wav" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!--<div id="label-phrase"></div>-->
     <div id="content-home">
         <!--<div id="news-container">
             
@@ -58,14 +77,31 @@
             </div>
         </div>-->
         <div class="news">
+            <div class="tape" style="transform: rotate(-30deg) translate(-7vw, -5vw);"></div>
+            <h3>December 22th, 2024</h3>
+            A new big update is coming!
+            <ul>
+                <li>Chapter 3 is being written.</li>
+                <li>A lot of new secrets coming soon.</li>
+                <li>Home page design's being changed.</li>
+                <li>And much more... :3</li>
+            </ul>
+            <div class="tape" style="transform: rotate(-30deg) translate(17vw, 7vw);"></div>
+        </div>
+        <div class="news2">
+            <div class="tape" style="transform: rotate(-30deg) translate(-7vw, -7vw);"></div>
             <h3>Setember 26th, 2024</h3>
             Chapter 2 released!
+            <div class="tape" style="transform: rotate(-30deg) translate(10vw, 23vw);"></div>
         </div>
         <div class="news">
+            <div class="tape" style="transform: rotate(-30deg) translate(-7vw, -7vw);"></div>
             <h3> Setember 25th, 2024</h3>
             Chapter 2 being written!
+            <div class="tape" style="transform: rotate(-30deg) translate(10vw, 23vw);"></div>
         </div>
-        <div class="news">
+        <div class="news2">
+            <div class="tape" style="transform: rotate(-30deg) translate(-7vw, -7vw);"></div>
             <h3> Setember 22th, 2024</h3>
             Great news, pals!
             <ul>
@@ -73,12 +109,17 @@
                 <li>Website's style remade.</li>
                 <li>Bugs fixed.</li>
             </ul>
-
+            <div class="tape" style="transform: rotate(-30deg) translate(15vw, 13vw);"></div>
         </div>
         <div class="news">
+            <div class="tape" style="transform: rotate(-30deg) translate(-7vw, -7vw);"></div>
             <h3> Setember 20th, 2024</h3>
             First chapter being written!.
+            <div class="tape" style="transform: rotate(-30deg) translate(10vw, 23vw);"></div>
         </div>
+    </div>
+    <div style="margin-left: 37vw; font-size: 2vw; margin-top: 5vw;"> 
+        <div style="margin-left: 5vw; font-family: 'Schoolbell', serif;color:black;">~ Made with love 💖 ~</div>
     </div>
 </body>
 </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="icon" type="image/x-icon" href="DeltaFurry_pfp.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Fonts/Coptic/stylesheet.css">
+    <link rel="stylesheet" href="./Fonts/Runes/stylesheet.css">
+    <title>PRAEVIDEO</title>
+</head>
+<body onload="OnStart()">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="close_popup()">&times;</span>
+      <h1>Welcome!</h1>
+      <p>Have a nice reading! In case of any grammatical error, please contact me.</p>
+      <h4>- D</h4>
+    </div>
+  
+  </div>
+
+    <div id="Modal-chapter" class="modal">
+        <div id="modal-content-chapters"><span class="close" onclick="close_chapter()">&times;</span>
+            <h1>Chapters</h1>
+            <a class="crumb2" onclick="chapter_1()">Chapter 1 - Friendship & Coffee</a>
+            <a class="crumb2-new" onclick="chapter_2()">Chapter 2 - An unexpected chat</a>
+            <p>Enjoy!</p>
+        </div>
+    </div>
+    </body>
+    <audio autoplay loop id="song-unfamiliar">
+        <source src="Songs/its-de-lovely.wav" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    <div id="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Earth_symbol_%28bold%29.svg/800px-Earth_symbol_%28bold%29.svg.png" id="img-slogan" onclick="RedirectWikiSlogan()">
+        <h3 id="slogan" onclick="Red_Slogan()">PRAEVISIO</h1>
+        <a class="crumb" onclick="Red_Home()">Home</a>
+        <a class="crumb" onclick="open_chapter()">Chapters</a>
+        <a class="crumb" onclick="Red_About()">About</a>
+    </div>
+    <div id="label-phrase"></div>
+    <div id="content-home">
+        <!--<div id="news-container">
+            
+            <div id="news">
+                "Great news! First chapter being written!."
+                <br>
+                <h5 style="margin: 1vw;">-- DaProgrammerz Lukz, osanaz thiusem (day 21/month 09/year 2024) --</h6>
+            </div>
+        </div>-->
+        <div class="news">
+            <h3>December 21th, 2024</h3>
+            Chapter 2 released!
+        </div>
+        <div class="news">
+            <h3>Setember 26th, 2024</h3>
+            Chapter 2 released!
+        </div>
+        <div class="news">
+            <h3> Setember 25th, 2024</h3>
+            Chapter 2 being written!
+        </div>
+        <div class="news">
+            <h3> Setember 22th, 2024</h3>
+            Great news, pals!
+            <ul>
+                <li>Chapter 1 released.</li>
+                <li>Website's style remade.</li>
+                <li>Bugs fixed.</li>
+            </ul>
+
+        </div>
+        <div class="news">
+            <h3> Setember 20th, 2024</h3>
+            First chapter being written!.
+        </div>
+    </div>
+    <div style="margin-left: 37vw;"> 
+        <div style="font-family: 'Courier New', Courier, monospace;">———————————————————————————————————————</div>
+        <div style="margin-left: 5vw;">~ Made with love 💖 ~</div></div>
+</body>
+</html>
