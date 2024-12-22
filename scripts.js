@@ -49,7 +49,7 @@ function Red_Slogan() {
 }
 function Red_About() {
     //window.location.replace("about.html")
-    window.alert('New about page coming soon! UwU')
+    window.alert('New about page coming soon! UwU (My email is lux.sonechka@gmail.com)')
 }
 
 
