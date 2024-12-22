@@ -22,5 +22,6 @@ function cellphone_button() {
     cellphone.style.backgroundImage = 'url(./bg/hell.jpg)'
 }
 function browser() {
-    window.location.replace('https://lux-sonechka.github.io/praevideo/Secrets/index.html')
+    const new_window = window.open()
+    new_window.location.replace('https://lux-sonechka.github.io/praevideo/Secrets/index.html')
 }
