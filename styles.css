@@ -271,7 +271,7 @@ body {
     -moz-box-shadow: -7px 10px 10px -7px rgba(0,0,0,0.75);
     margin-top: 5vw;
     rotate: -5deg;
-    transform: translate(15vw);
+    transform: translate(5vw);
   }
   #gramophone-gif {
     width: 13vw;

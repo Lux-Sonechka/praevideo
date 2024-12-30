@@ -49,7 +49,7 @@ function Red_Slogan() {
 }
 function Red_About() {
     //window.location.replace("about.html")
-    window.alert('New about page coming soon! UwU (My email is lux.sonechka@gmail.com)')
+    window.alert('New about page coming soon! UwU')
 }
 
 
@@ -86,4 +86,8 @@ function chapter_1() {
 function chapter_2() {
     const new_window = window.open()
     new_window.location.href = "Chapters/2nd/chapter2.html"
+}
+function chapter_3() {
+    const new_window = window.open()
+    new_window.location.href = "Chapters/3rd/chapter3.html"
 }
