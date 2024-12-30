@@ -27,11 +27,11 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 2vw;
-    background-image: linear-gradient(180deg, rgb(129, 116, 160) 12.50%, rgb(168, 136, 181) 12.50%, rgb(168, 136, 181) 25%, rgb(239, 182, 200) 25%, rgb(239, 182, 200) 37.50%, rgb(255, 210, 160) 37.50%, rgb(255, 210, 160) 50%, rgb(129, 116, 160) 50%, rgb(129, 116, 160) 62.50%, rgb(168, 136, 181) 62.50%, rgb(168, 136, 181) 75%, rgb(239, 182, 200) 75%, rgb(239, 182, 200) 87.50%, rgb(255, 210, 160) 87.50%, rgb(255, 210, 160) 100%);
-    background-size: 800.00px 800.00px;
+    background-image: linear-gradient(0deg, #f6eacb 16.67%, #f1d3ce 16.67%, #f1d3ce 33.33%, #eecad5 33.33%, #eecad5 50%, #f6eacb 50%, #f6eacb 66.67%, #f1d3ce 66.67%, #f1d3ce 83.33%, #eecad5 83.33%, #eecad5 100%);
+    background-size: 120.00px 120.00px;
 }
 .text {
-    background-image: linear-gradient(0deg, rgb(245, 239, 255) 25%, rgb(229, 217, 242) 25%, rgb(229, 217, 242) 50%, rgb(245, 239, 255) 50%, rgb(245, 239, 255) 75%, rgb(229, 217, 242) 75%, rgb(229, 217, 242) 100%);
+    background-image: linear-gradient(0deg, #ffe6e6 25%, #f0d9ff 25%, #f0d9ff 50%, #ffe6e6 50%, #ffe6e6 75%, #f0d9ff 75%, #f0d9ff 100%);
     background-size: 80.00px 80.00px;
     padding: 5%;
     border: 0.25vw solid black;
@@ -39,6 +39,26 @@ body {
     box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
     -webkit-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
     -moz-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+}
+.text2 {
+  background-image: linear-gradient(0deg, #c6e6e0 25%, #f5f4eb 25%, #f5f4eb 50%, #c6e6e0 50%, #c6e6e0 75%, #f5f4eb 75%, #f5f4eb 100%);
+  background-size: 80.00px 80.00px;
+  padding: 5%;
+  border: 0.25vw solid black;
+  border-radius: 1vw;
+  box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+  -webkit-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+  -moz-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+}
+.fox-script {
+  background-color: #eecad5;
+  padding: 5%;
+  border: 0.25vw solid black;
+  border-radius: 1vw;
+  box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+  -webkit-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+  -moz-box-shadow: -1px -1px 5px 7px rgba(0,0,0,0.44);
+  font-family: 'Courier New', Courier, monospace;
 }
 .messages {
     background-image: linear-gradient(0deg, rgb(241, 248, 232) 25%, rgb(216, 239, 211) 25%, rgb(216, 239, 211) 50%, rgb(241, 248, 232) 50%, rgb(241, 248, 232) 75%, rgb(216, 239, 211) 75%, rgb(216, 239, 211) 100%);
@@ -73,4 +93,38 @@ body {
     min-width: 10vw;
     margin-top: 2.5vw;
     padding: 1vw;
+}
+#media-player {
+  background: linear-gradient(0deg, rgb(182, 221, 239) 3%, rgb(214, 235, 252) 35%);
+  font-family: "Schoolbell", serif;
+  font-size: 1vw;
+  color: black;
+  display: block;
+  position: absolute;
+  padding: 1vw;
+  max-width: 23vw;
+  min-width: 23vw;
+  max-height: 23vw;
+  min-height: 23vw;
+  box-shadow: -7px 10px 10px -7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -7px 10px 10px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: -7px 10px 10px -7px rgba(0,0,0,0.75);
+  margin-top: 5vw;
+  rotate: -5deg;
+  transform: translate(55vw);
+}
+#gramophone-gif {
+  width: 13vw;
+  height: 13vw;
+  margin-left: 3vw;
+}
+#song-unfamiliar {
+  width: 20vw;
+  background-color: rgb(243, 241, 241);
+
+  color: white;
+  border-radius: 1vw;
+}
+#that-thing {
+  cursor: pointer;
 }

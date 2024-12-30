@@ -3,19 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friendship & Coffee</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Knee Deep in Agony</title>
     <link rel="icon" type="image/x-icon" href="DeltaFurry_pfp.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="text">
-        
-    </div>
-    <br>
-    <div class="messages" style="height: 30vw; background-image: url('https://memesoundeffects.com/wp-content/uploads/elementor/thumbs/mao-zedong-propaganda-music-Red-Sun-in-the-Sky-q68uuk4qaap97p67tv3yajnds2rcflfvug5xvq9lpc.jpg');">
-        <audio controls autoplay>
-            <source src="https://media.memesoundeffects.com/2023/12/mao-zedong-propaganda-music-red-sun-in-the-sky.mp3" type="audio/mpeg">
+    <div id="media-player">
+        <h2>The Caretaker - Childish fresh eyes</h2>
+        <img src="gramophone-gif.gif" id="gramophone-gif">
+        <audio autoplay controls loop id="song-unfamiliar">
+            <source src="https://ia801504.us.archive.org/9/items/the-caretaker-everywhere-at-the-end-of-time_202408/The%20Caretaker%20-%20Everywhere%20at%20the%20end%20of%20time%20-%2004%20A4%20-%20Childishly%20fresh%20eyes.mp3" type="audio/ogg">
+            Your browser does not support the audio element.
         </audio>
     </div>
+
+    <div class="text">
+        <h1>Knee Deep in Agony</h2>
+        <h2>From diary of "Luxxie"</h2>
+        <br>
+        <strong>Setember 9th, 2021</strong>
+        <br>
+        "Yesterday I ran away from my house once again because my parents found out about some mess I've done around hihihi UwU
+        <br> Alsoooo I'm feeling better since I noticed that someone love me for real! Christian has a crush on me... My new neighbor is my best friend now... all is okey now! By the way, I'm living at Christian's house! Isn't that cool? :D" <br><br>
+        <strong>Setember 10th, 2021</strong><br>
+        "Sometimes I feel like someone's always watching me... Like, I'm seeing things through the windows... I hear awkward noises around the house... I hear voices that aren't from my head... I'm really worried"<br>
+        <br><strong>Setember 11th, 2021</strong><br>
+        "This morning Christian's mother caught me meditating in a dark doom. She got scaried and ended cursing me... But the worst is, I saw something or someone running infront of the door, right behind her... I wonder if that was Christian..."<br>
+        <br><strong>Setember 13th, 2021</strong><br>
+        "Ḱ̷̵̴̡̛͘͘͜͞͞͠͡ì̵̶̧̀͜͜͠҉̴̡̨̕t̸̷͢͠͏̨̢̨̧̀͘͢͝s̕҉̸͢͢͡͞͠҉̷̸͟͡u̵͞͡͝҉̸̸̢͟͟͟͝͡ń̴́҉̕̕͘͏̡̡́͡͞é̶̷̷̵̢̀͘͜͟͜͟͡  told me to check out bellow Christian's bed... I'm going to sleep while cuddling him (when his parents aren't watching us, of course) so I'll do so :0"<br>
+        <br><strong>Setember 12th, 2021</strong><br>
+        "I'm now at school. Just a few moments ago, while I was just having a normal chat with a friend, I have noticed someone stading right behind of my classroom's window, just watching me... Anyway, I just noticed that some unoccupied person just wrote ''MXLVIII''' on ma' notebook using a blue pen, I confess I'm a bit upset by such random thing! >:0"
+
+    </div><br>
+    <div class="messages">
+        <h2 style="margin-left: 2vw; padding-top: 2vw;">From Christian'S message app (Setember 11th, 2021 - "Mum")</h2>
+        <div class="msg-right">Hey son</div>
+        <div class="msg-right">Are you alright? Is anything going on there?</div>
+        <div class="msg-left">What?</div>
+        <div class="msg-left">I'm okay, mom!</div>
+        <div class="msg-left">There's nothing wrong</div>
+        <div class="msg-left">Actually I am feeling great =w=</div>
+        <div class="msg-left">Why did you ask?</div>
+        <div class="msg-right">I feel that there's something wrong with Lux</div>
+        <div class="msg-left">Why do you feel that??</div>
+        <div class="msg-left">Gosh, everyone think bad of them! ;w;</div>
+        <div class="msg-right">Just take care, son...</div>
+        <div class="msg-left">Sure mom...</div>
+        <br>
+    </div>
+    <BR>
+    <div class="messages">
+        <h2 style="margin-left: 2vw; padding-top: 2vw; font-size: 2.75vw;">From Christian'S message app (Setember 12th, 2021 - "Luxxie <3")</h2>
+        <div class="msg-right">Hewwo</div>
+        <div class="msg-left">Heyy Luxxie!</div>
+        <div class="msg-left">Do you need something?</div>
+        <div class="msg-right">Yeah</div>
+        <div class="msg-right">Do you remember about that thing we found bellow your bed?</div>
+        <div class="msg-right">We need to burn <a id="that-thing" onclick="that_thing()">that</a> ;w;</div>
+        <div class="msg-left">Why?? :0</div>
+        <div class="msg-right">Trust me, that's very risky to keep it</div>
+        <div class="msg-left">Why do you think that??</div>
+        <div class="msg-right">Uhhh</div>
+        <div class="msg-right">Just trust me plss</div>
+        <div class="msg-left">Okiee then</div>
+        <div class="msg-left">See youuu ^^</div>
+        <div class="msg-right">See ya!</div>
+        <br>
+    </div><br>
+    <div class="text2">
+        <h2>From diary of ???</h2><br>
+        <br><strong>Setember 12th, 2021</strong><br>
+        "THEY ALREADY KNOW IM IN AND THEY DONT LEAVE ME ALONE A SINGLE NIGHT I NEED HELP BUT NOBODY CAME FOR ME  I AM JUST RUNNING CRAZY HSDBHAAHAHHAAA
+        <br><strong>Don't trust the foxes</strong>"
+    </div><br>
+    <div class="fox-script">
+        <div class="notranslate">
+            <h2>From diary of 狐</h2><br>
+            <br><strong>９月　１１日, 2021</strong><br>
+            「数日間、このルクスという猫を手伝っています。みんなが思っているのとは違って、とても可愛いんですよ！なんと、彼氏に手を出した男の子を殺しちゃったんです！クリスチャンの家に隠れている政府のスパイは、ルクスと彼氏に脅かされ続けています。人々の恐怖を感じるのが大好きです！」
+        </div>
+    </div><br>
 </body>
 </html>
