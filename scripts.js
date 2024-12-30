@@ -48,8 +48,10 @@ function Red_Slogan() {
     window.open('https://www.latin-is-simple.com/en/vocabulary/search/?q=praevisio')
 }
 function Red_About() {
-    //window.location.replace("about.html")
-    window.alert('New about page coming soon! UwU')
+    window.location.replace("about.html")
+}
+function Red_Home_true() {
+    window.location.href = 'index.html'
 }
 
 
