@@ -26,6 +26,9 @@ document.addEventListener("keypress", function(event) {
         
         window.open('poem.html')
       }
+      if (input_password.value = 'fox') {
+        window.open('https://en.m.wikipedia.org/wiki/Kitsune')
+      }
     }
   });
   document.addEventListener('contextmenu', function(e) {
